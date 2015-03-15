@@ -1,1 +1,11 @@
-/* Empty. Add your own CSS if you like */
+/* Custom CSS for Office Ergonomics App */
+
+.item-divider {
+	background-color: green;
+	color: white;
+}
+
+.item-instructions {
+	font-size: 12px;
+	background-color: orange;
+}

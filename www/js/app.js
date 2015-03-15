@@ -53,7 +53,7 @@ angular.module('ergo', ['ionic', 'ergo.controllers', 'ergo.services'])
       views: {
         'tab-assess': {
           templateUrl: 'templates/tab-assess.html',
-          controller: 'assessCtrl'
+          controller: 'AssessCtrl'
         }
       }
     })
@@ -63,7 +63,7 @@ angular.module('ergo', ['ionic', 'ergo.controllers', 'ergo.services'])
     views: {
       'tab-recs': {
         templateUrl: 'templates/tab-recs.html',
-        controller: 'recsCtrl'
+        controller: 'RecsCtrl'
       }
     }
   });
