@@ -16,19 +16,22 @@
     <div class="col-40 item item-image">
     <img src="img/seated.jpg">
     </div>
+    <form id="form1" ng-controller="FormCtrl" ng-submit="save()">
       <div class="col">
         <label class="item item-input">
-        <input type="number" placeholder="Eye Height">
+        <input type="number" id="eye" ng-model="EyeHt" placeholder="Eye Height">
         </label>
         <br><br><br>
         <label class="item item-input">
-        <input type="number" placeholder="Elbow Height">
+        <input type="number" id="elbow" ng-model="ElbowHt" placeholder="Elbow Height">
         </label>
         <br><br><br>
         <label class="item item-input">
-        <input type="number" placeholder="Knee Height">
+        <input type="number" id="knee" ng-model="KneeHt" placeholder="Knee Height">
         </label><br>
       </div>
+      <input type="submit" id="btnSubmit" value="Submit" />
+    </form>
   </div>
 
   <!-- Assessment Instructions -->
