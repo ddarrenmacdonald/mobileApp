@@ -4,3 +4,8 @@
 node_modules/
 platforms/
 plugins/
+www/bin
+www/lib
+.DS_Store
+.bowerrc
+.gitignore
