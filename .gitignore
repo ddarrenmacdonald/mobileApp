@@ -6,6 +6,15 @@ platforms/
 plugins/
 www/bin
 www/lib
-.DS_Store
 .bowerrc
 .gitignore
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
