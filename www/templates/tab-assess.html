@@ -16,24 +16,29 @@
     <div class="col-40 item item-image">
     <img src="img/seated.jpg">
     </div>
-    <form id="form1" ng-controller="FormCtrl" ng-submit="save()">
+    <form id="form1" ng-controller="AssessCtrl" ng-submit="save()">
       <div class="col">
         <label class="item item-input">
-        <input type="number" id="eye" ng-model="EyeHt" placeholder="Eye Height">
+        <input id="eye" name="eye"  placeholder="Eye Height" ng-model="eye" type="text" class="form-control input-small"> 
         </label>
         <br><br><br>
+
         <label class="item item-input">
-        <input type="number" id="elbow" ng-model="ElbowHt" placeholder="Elbow Height">
+        <input id="elbow" name="elbow"  placeholder="Elbow Height" ng-model="elbow" type="text" class="form-control input-small"> 
         </label>
+
         <br><br><br>
+
         <label class="item item-input">
-        <input type="number" id="knee" ng-model="KneeHt" placeholder="Knee Height">
-        </label><br>
+        <input id="knee" name="knee"  placeholder="Knee Height" ng-model="knee" type="text" class="form-control input-small"> 
+        </label>
+        <br>
+
       </div>
-      <input type="submit" id="btnSubmit" value="Submit" />
+      <button ng-click="addRecord()" id="btnAdd" name="btnAdd" class="btn btn-danger">Add</button>
     </form>
   </div>
-
+  
   <!-- Assessment Instructions -->
   <div class="item item-instructions">
     <div>
